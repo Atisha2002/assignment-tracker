@@ -1,3 +1,4 @@
+
 {
   "name": "classroom",
   "version": "0.1.0",
@@ -14,6 +15,7 @@
     "isomorphic-unfetch": "^3.1.0",
     "moment": "^2.29.1",
     "next-google-fonts": "^2.2.0",
+    "postcss": "^7.0.39",
     "react": "^17.0.2",
     "react-beautiful-dnd": "^13.1.0",
     "react-chartjs-2": "^3.0.2",
@@ -26,8 +28,8 @@
     "which-collection": "^1.0.2"
   },
   "scripts": {
-    "start": "set NODE_OPTIONS=--openssl-legacy-provider && craco start",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && craco build",
+    "start": "craco start",
+    "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
@@ -51,7 +53,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
-    "postcss": "^7.0.35",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2"
   }
 }
